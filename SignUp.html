@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <link rel="icon" type="image/x-icon" href="/Documents/logo.png">
+</head>
+<body style="background-color:#FEF9E7 ;">
+    <header style="text-align: center;">
+        <h1>
+            <u>
+                Sign Up
+            </u>
+        </h1>
+    </header>
+    <main>
+        <form action="/action.php">
+        <section>
+         <span>First Name<b>:</b></span>
+        <input type="text" placeholder="First Name"><br/><br/>
+        <span>Last Name<b>:</b></span>
+        <input type="text" placeholder="Last Name"><br/><br/>
+        <span>Username<b>:</b></span>
+        <input type="text" placeholder="Enter your email">
+        </section>
+        <br/>
+        <section>
+            <span>Password<b>:</b></span>
+            <input type="password" placeholder="Create Password">
+            <br/>
+            <fieldset>
+                <legend>
+                    Password Requirement
+                </legend>
+             <ul>
+                <li>At least 8 character.</li>
+                <li>At least one uppercase letter.</li>
+                <li>At least one lowercase letter.</li>
+                <li>At least one number.</li>
+                <li>At least one special character(!@#$%^&*)</li>
+             </ul>
+             </fieldset>
+             <span>Confirm Password<b>:</b></span>
+             <input type="password" placeholder="Confirm Password">
+        </section>
+        <br/>
+        <section>
+        <span>Country<b>:</b></span>
+        <select name="Country" id="Country">
+            <option value="USA">USA</option>
+            <option value="Albania">Albania</option>
+            <option value="Austria">Austria</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="China">China</option>
+            <option value="Egypt">Egypt</option>
+        </select>
+        &nbsp;
+        <span>City<b>:</b></span>
+        <select name="City" id="City">
+            <option value="California">California</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Pabna">Pabna</option>
+        </select>
+        </section>
+        <br/>
+        <section>
+            <span>Number<b>:</b></span>
+            <select name="number" id="number">
+                <option value="+93">+93</option>
+                <option value="+355">+355</option>
+                <option value="+213">+213</option>
+                <option value="+1-684">+1-684</option>
+                <option value="+672">+672</option>
+                <option value="+880">+880</option>
+                <option value="+375">+375</option>
+                <option value="+226">+226</option>
+            </select>
+            <input type="number" placeholder="Number">
+        </section>
+        <br/>
+        <section>
+            <span>Gender<b>:</b></span>
+            <input type="radio" value="Male" name="Gender" id="">Male
+            <input type="radio" value="Female" name="Gender" id="">Female
+            <input type="radio" value="Other" name="Gender" id="">Other
+            <br/><br/>
+            <span>Date of birth<b>:</b></span>
+            <input type="date" placeholder="">
+        </section>
+        </form>
+    </main>
+    <br/>
+    <footer>
+        <a href="/HumanChecker.html">
+            <input type="submit" value="submit" style="background-color: yellowgreen;">
+        </a>
+    </footer>
+</body>
+</html>
